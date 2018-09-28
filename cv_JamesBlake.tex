@@ -1,0 +1,221 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Curriculum Vitae, James Blake
+%% Updated last: 23/09/2018
+%% Created using altacv.cls
+%% (v1.1.4, 27 July 2018) written by LianTze Lim
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% If need to pass options to xcolor
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+%% Use the "normalphoto" option for normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% Page layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%% For pdflatex:
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+%% Font colours
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%% Change the bullets for itemize
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Other packages
+\usepackage[colorlinks=True,linkcolor=blue,filecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[document]{ragged2e}
+
+\begin{document}
+
+\name{James Blake}
+\tagline{Postgraduate Student (Research)}
+\photo{3.5cm}{20180720_190428.jpg}
+\personalinfo{%
+  \email{J.Blake@warwick.ac.uk}
+  \phone{+44 7500 521149}
+  \skype{james971995}
+  %\mailaddress{46 Walsall St -- Coventry -- CV4 8EY}
+  \location{Coventry, United Kingdom}
+  \twitter{@jblake\_95}
+  \linkedin{in/jamesblake95}
+  \github{github.com/jblake95}
+ %\homepage{www.warwick.ac.uk/fac/sci/physics/research/astro/people/jamesblake/}
+}
+
+%% Make header extend all the way to the right
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Postgraduate Student (Research)}{Department of Physics, University of Warwick}{September 2017 -- Ongoing}{Coventry, United Kingdom}
+\begin{itemize}
+\item \textbf{Supervisor}: Prof. Don Pollacco (Astronomy)
+\item \textbf{Funding}: Science and Technology Facilities Council (STFC)
+\item \justify \textbf{Project outline}: \textit{The debris population at geostationary orbit and the fate of aged spacecraft} |
+Development of a Python-based reduction and detection pipeline for use in multiple survey campaigns, searching for artificial debris at geostationary altitudes |
+Commissioning of a 36~cm Rowe-Ackermann Schmidt Astrograph, a debris-monitoring prototype instrument |
+Deep observations of the geostationary belt with the Isaac Newton Telescope, situated at the Roque de los Muchachos Observatory on the Canary Island of La Palma.
+\end{itemize}
+\small See \href{https://warwick.ac.uk/fac/sci/physics/research/astro/people/jamesblake/}{department webpage} for further detail.
+
+\divider
+
+\cvevent{Summer Research Intern}{Department of Physics, University of Warwick}{2015, 2016 \& 2017}{Coventry, United Kingdom}
+\vspace{-1em}
+\small \justify Completed three 10-week summer projects as part of the Undergraduate Research Support Scheme (URSS):
+\begin{itemize}
+\item 2015 | \textbf{Supervisor:} Prof. Don Pollacco (Astronomy) | \textbf{Project:} \textit{Attempted detection of weather patterns on HAT-P-7b}
+\item 2016 | \textbf{Supervisor:} Dr. David Armstrong (Astronomy) | \textbf{Project:} \textit{Modelling the circumbinary candidate KOI-1741}
+\item 2017 | \textbf{Supervisors:} Dr. David Armstrong (Astronomy) \& Dr. Hendrik Sch{\"a}fer (Life Sciences) | \textbf{Project:} \textit{Modelling panspermia in the TRAPPIST-1 system}
+\end{itemize}
+Extensive use of Python for data analysis and/or modelling.
+
+\divider
+
+\cvevent{Outreach and Recruitment Ambassador}{SROAS Office, University of Warwick}{March 2014 -- Ongoing}{Coventry, United Kingdom}
+\vspace{-1em}
+\small \justify Group leader/ night staff on 10 residentials for year 9--12 students |
+Mentor for Sutton Scholars Programme | 
+Tutor for GCSE/ A Level revision bootcamps |
+Delivered sessions on university life, careers and student finance at schools for year 7--12 students |
+Excellent customer service skills developed from campus tours and open days |
+Approachable telephone manner from student calling |
+Involved with Brilliant Club, UniTracks and Realising Opportunities initiatives, promoting widening participation at Russell Group universities |
+Event management for audiences of 200+
+
+\divider
+
+\cvevent{Work Experience Placement}{Laser 2000 (UK) Ltd, Huntingdon}{August -- September 2012}{Cambridgeshire, United Kingdom}
+\vspace{-1em}
+\small \justify Trained alongside two physics graduates | 
+Underlying theory and sale of photonic equipment |
+Entrusted with digitization of legal documents |
+Research project investigating the effect of temperature on a laser beam
+
+\clearpage
+
+\cvsection[page2sidebar]{Scientific presentations}
+
+\normalsize \textbf{Conference talks}
+
+\medskip
+
+\small 2018 | \textbf{``Hitching a ride on asteroids - are we the aliens?''} \\
+ICUR, University of Warwick, UK linked to Monash University, Australia
+
+\smallskip
+
+\small 2018 | \textbf{``Panspermia: are we the aliens?''} \\
+BCUR, University of Sheffield, UK
+
+\smallskip
+
+\small 2016 | \textbf{``Modelling the circumbinary candidate KOI-1741''} \\
+ICUR, University of Warwick, UK linked to University of Leeds, UK
+
+\divider
+
+\normalsize \textbf{Invited talks \& seminars}
+
+\medskip
+
+\small 2018 | \textbf{``The debris population at GEO and the fate of aged spacecraft''} \\
+Warwick AstroSoc Research Symposium, University of Warwick, UK
+
+\smallskip
+
+\small 2017 | \textbf{``Extrasolar panspermia: are we the aliens?''} \\
+Stratford Astronomical Society, Alderminster, UK -- \href{http://www.astro.org.uk/news/nov17/}{article}
+
+\smallskip
+
+\small 2016 | \textbf{``Circumbinary planets: a closer look at Tatooine''} \\
+Warwick AstroSoc Research Symposium, University of Warwick, UK
+
+\divider
+
+\normalsize \textbf{Poster presentations}
+
+\medskip
+
+\small 2018 | \textbf{``Modelling panspermia in the TRAPPIST-1 system''} \\
+Posters in Parliament, Palace of Westminster, UK
+
+\smallskip
+
+\small 2016 | \textbf{``Modelling the circumbinary candidate KOI-1741''} \\
+URSS Showcase, University of Warwick, UK
+
+\smallskip
+
+\small 2015 | \textbf{``Searching for weather patterns on the hot giant HAT-P-7 b''} \\
+ICUR, University of Warwick, UK
+
+\medskip
+
+\cvsection{Publications list}
+
+\normalsize \textbf{Co-authored refereed journal articles} 
+
+\medskip
+
+\small
+\href{https://www.liebertpub.com/doi/abs/10.1089/ast.2017.1786}{Dynamical and biological panspermia constraints within multi-planet exosystems} \\
+Veras, D., Armstrong, D. J., \textbf{Blake, J. A.}, Guti{\'e}rrez-Marcos, J. F., Jackson, A. P. \& Sch{\"a}fer, H., Astrobiology, 18, 9 (2018)
+
+\smallskip 
+
+\small 
+\href{https://www.nature.com/articles/s41550-016-0004}{Variability in the atmosphere of the hot giant planet HAT-P-7~b} \\
+Armstrong, D. J., de Mooij, E., Barstow, J., Osborn, H. P., \textbf{Blake, J.}, \& Fereshteh Saniee, N., Nature Astronomy, 1, 4 (2016)
+
+\clearpage
+
+\cvsection[page3sidebar]{Activities}
+
+\normalsize \textbf{Societies}
+
+\medskip
+
+\small 2016 | \textbf{Warwick Astronomy Society} | \textit{Co-founder, Vice President and Treasurer} \\
+Organisation and coordination of events for 80+ members, such as workshops in observational astronomy, academic talks and research showcases.
+Responsible for finance and sponsorship.
+
+\divider
+
+\small 2016 | \textbf{Warwick Physics Society} | \textit{Academic Coordinator} \\
+Upkeep of revision guides, organisation of revision lectures and coordination of weekly help sessions at the Physics Caf{\'e}.
+
+
+\medskip
+
+\normalsize \textbf{Teaching}
+
+\medskip
+
+\normalsize \textbf{Outreach}
+
+\medskip
+
+\normalsize \textbf{Other}
+
+\end{document}
