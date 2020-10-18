@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Curriculum Vitae, James Blake
+%% Updated last: 05/10/2020
+%% Created using altacv.cls
+%% (v1.1.4, 27 July 2018) written by LianTze Lim
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% If need to pass options to xcolor
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+%% Use the "normalphoto" option for normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% Page layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%% For pdflatex:
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+%% Font colours
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%% Change the bullets for itemize
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Other packages
+\usepackage[colorlinks=True,linkcolor=blue,filecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[document]{ragged2e}
+
+\begin{document}
+
+\name{James Blake}
+\tagline{Postgraduate Student (Research, full-time)}
+\photo{3.5cm}{cv_photo.jpg}
+\personalinfo{%
+  \email{J.Blake@warwick.ac.uk}
+  \phone{+44 7500 521149}
+  %\twitter{\href{https://twitter.com/jblake_95}{@jblake\_95}}
+  %\skype{james971995}
+  %\mailaddress{46 Walsall St -- Coventry -- CV4 8EY}
+  \linkedin{\href{https://www.linkedin.com/in/jamesblake95/}{in/jamesblake95}}
+  \location{Coventry, United Kingdom}
+  %\rgate{\href{https://www.researchgate.net/profile/James_Blake8}{researchgate/James\_Blake8}}
+  %\github{\href{https://github.com/jblake95}{github/jblake95}}
+ %\homepage{www.warwick.ac.uk/fac/sci/physics/research/astro/people/jamesblake/}
+}
+
+%% Make header extend all the way to the right
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents
+\cvsection[page1sidebar1page]{Experience}
+
+\normalsize \textbf{Postgraduate Student (Research, full-time)} \\ \small \faCalendar \hspace{2pt} Sept 2017 -- Ongoing \hspace{17pt} \faMapMarker \hspace{2pt} Dept. Physics, Uni. Warwick, UK
+\smallskip
+\begin{itemize}
+	\item Developing Python analysis pipelines to detect and characterise artificial debris in astronomical images of the geosynchronous region 
+	\item Astrodynamical simulations, orbital analysis and fitting
+\end{itemize}
+\small See my \href{https://warwick.ac.uk/fac/sci/physics/research/astro/people/jamesblake/}{department webpage} for further detail, including publications.
+
+\medskip
+
+\normalsize \textbf{Senior Outreach and Recruitment Ambassador} \\ \small \faCalendar \hspace{2pt} March 2014 -- Ongoing \hspace{10pt} \faMapMarker \hspace{2pt} SROAS Office, Uni. Warwick, UK
+\smallskip
+\begin{itemize}
+	\item Mentoring and tutoring for several WP outreach programmes, including Sutton Scholars, Brilliant Club, UniTracks and Realising Opportunities
+	\item Planning and delivering outreach sessions for year 7--13 students in schools
+	\item Developing communication skills through campus tours, open days, calling
+\end{itemize}
+
+\medskip
+
+\normalsize \textbf{Summer Research Intern} \\ \small \faCalendar \hspace{2pt} 2015, 2016 \& 2017 \hspace{24pt} \faMapMarker \hspace{2pt} Dept. Physics, Uni. Warwick, UK
+\smallskip
+\begin{itemize}
+	\item Undertook three 10-week summer projects as part of the Undergraduate Research Support Scheme (URSS), in exoplanetary science and astrobiology
+	\item Extensive use of Python for data analysis and/or modelling
+\end{itemize}
+
+\medskip
+
+\normalsize \textbf{Work Experience Placement} \\ \small \faCalendar \hspace{2pt} Aug -- Sept 2012 \hspace{36pt} \faMapMarker \hspace{2pt} Laser 2000 Ltd, Huntingdon, UK
+\smallskip
+\begin{itemize}
+	\item Received training as a prospective Sales Engineer, covering the theory and commercialisation of photonic equipment
+	\item Entrusted with digitization of legal documents, carried out a research project
+\end{itemize}
+
+\medskip
+
+\cvsection{Highlights}
+
+\textbf{Additional roles} | Secretary for \href{https://gnosisnetwork.org/}{GNOSIS} (2019--); UG Lab Marker (2017--20); Sales Assistant, Blue Inc (2014--16); Maths Tutor, Barrs Hill School, Coventry (2014--15); Fundraiser, St John's Ambulance, Carmarthenshire (2014)
+
+\smallskip
+
+\textbf{Leadership} | Technical session co-Chair at AMOS Conference, Hawai'i, US (2020); Co-founder and Vice-President of Warwick Astronomy Society (2016); Academic Coordinator for Warwick Physics Society (2016)
+
+\smallskip
+
+\textbf{Event Management} | Organised and coordinated the GNOSIS Precision SSA Virtual Workshop (2020, 60+ attendees); Coordinating events for audiences of 200+ visitors on open days; Organising UG revision lectures
+
+\smallskip
+
+\textbf{Teaching \& Outreach} | Demonstrating for Python programming workshops; Co-supervising UG project students; Leading revision lectures for several UG modules; Visiting schools with a portable planetarium, delivering immersive and educational shows; Leading sessions for year 7--13 pupils on summer schools, residentials and school visits, promoting STEM subjects
+
+\smallskip
+
+\textbf{Communication} | Presented at 10+ nat'l/int'l conferences; Invited to give 10+ talks/seminars at nat'l/int'l venues; Alumni Panellist for ICUR, streamed internationally (2020); Confident speaker, excellent customer service
+
+\smallskip
+
+\textbf{Publications \& Media} | Multiple peer-reviewed articles and conference proceedings, 3 as first author; Multiple press releases reaching 100+ news outlets across the globe -- see e.g. \href{https://www.youtube.com/watch?v=ccHlPwxHIN4&list=LLrNAf9mR4fHTqvYkXHg5PuA&index=1&t=1s&ab_channel=DavidGregory-Kumar}{BBC interview}; Writer for \href{https://theconversation.com/five-reasons-future-space-travel-should-explore-asteroids-119246}{The Conversation}
+
+\smallskip
+
+\textbf{Awards} | \href{https://amostech.com/2019-archive/}{Best Student Paper}, AMOS Conference, Hawai'i, US (2019); \href{https://warwick.ac.uk/fac/cross_fac/iatl/news/posters-in-parliament-2018}{Best Poster}, Posters in Parliament, London, UK (2018); Significant Contribution to Outreach Activities, SROAS Office, Uni. Warwick, UK (2016)
+
+\smallskip
+
+\textbf{Courses} | EMER-GEN, Hawai'i, US (2020), mentoring from space industry experts; ESA Space Debris Training Course, Transinne, BE (2019); Warwick Ventures Innovation to Impact, Uni. Warwick, UK (2019)
+
+\end{document}
