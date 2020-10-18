@@ -68,7 +68,7 @@
   \begin{adjustwidth}{}{\dimexpr-\marginparwidth-\marginparsep\relax}}
   {\end{adjustwidth}}
 
-\newcommand{\emailsymbol}{\faAt}
+\newcommand{\emailsymbol}{\faEnvelope}
 \newcommand{\phonesymbol}{\faPhone}
 \newcommand{\homepagesymbol}{\faChain}
 \newcommand{\locationsymbol}{\faMapMarker}
@@ -78,6 +78,7 @@
 \newcommand{\orcidsymbol}{\aiOrcid}
 \newcommand{\mailsymbol}{\faEnvelope}
 \newcommand{\skypesymbol}{\faSkype}
+\newcommand{\rgatesymbol}{\faMortarBoard}
 
 \newcommand{\printinfo}[2]{\mbox{\textcolor{accent}{\normalfont #1}\hspace{0.5em}#2\hspace{2em}}}
 
@@ -94,6 +95,7 @@
 \newcommand{\orcid}[1]{\printinfo{\orcidsymbol}{#1}}
 \newcommand{\location}[1]{\printinfo{\locationsymbol}{#1}}
 \newcommand{\skype}[1]{\printinfo{\skypesymbol}{#1}}
+\newcommand{\rgate}[1]{\printinfo{\rgatesymbol}{#1}}
 
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
 
